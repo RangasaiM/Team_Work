@@ -10,7 +10,7 @@ def add(a, b):
     return a + b
 
 def subtract(a, b):
-    pass
+    return(a-b)
 
 def multiply(a, b):
     pass
@@ -28,6 +28,7 @@ def calculator():
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
     print(f"addition{add(a, b)}")
+    print(f"substraction{subtract(a, b)}")
     
     
 
