@@ -13,7 +13,7 @@ def subtract(a, b):
     return(a-b)
 
 def multiply(a, b):
-    pass
+    return a*b
 
 def divide(a, b):
     pass
@@ -29,6 +29,7 @@ def calculator():
     print(f"Values received: a = {a}, b = {b}")
     print(f"addition{add(a, b)}")
     print(f"substraction{subtract(a, b)}")
+    print(f"Multiplication{multiply(a,b)}")
     
     
 
