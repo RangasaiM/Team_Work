@@ -7,7 +7,7 @@ def get_input():
     return a, b
 
 def add(a, b):
-    pass
+    return a + b
 
 def subtract(a, b):
     pass
@@ -27,6 +27,7 @@ def calculator():
     print("\nWelcome to the Team Calculator!")
     a, b = get_input()  # Taking input for `a` and `b`
     print(f"Values received: a = {a}, b = {b}")
+    print(f"addition{add(a, b)}")
     
     
 
