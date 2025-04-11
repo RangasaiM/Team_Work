@@ -16,7 +16,7 @@ def multiply(a, b):
     return a*b
 
 def divide(a, b):
-    pass
+    return (a/b)
 
 
 def modulus(a, b):
@@ -30,6 +30,7 @@ def calculator():
     print(f"addition{add(a, b)}")
     print(f"substraction{subtract(a, b)}")
     print(f"Multiplication{multiply(a,b)}")
+    print(f"division{divide(a,b)}")
     
     
 
